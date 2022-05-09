@@ -1,0 +1,115 @@
+.before-game .playfield {
+    display: none;
+}
+
+.before-game .new-game-button {
+    display: none;
+}
+
+.during-game .playfield {
+    display: block;
+}
+
+.during-game .start-game-button {
+    display: none;
+}
+
+.after-game .rules {
+    display: none;
+}
+
+.after-game .playfield {
+    display: none;
+}
+
+.after-game .start-game-button {
+    display: none;
+}
+
+body {
+    background-color: beige;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(222, 147, 211);
+    padding: 10px 0;
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+h1 {
+    border-bottom: 2px solid white;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.minimum, .maximum {
+    font-weight: bold;
+}
+
+.guesses {
+    font-size: 25px;
+}
+
+.rules, .guesses {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    margin: 20px auto;
+    max-width: max-content;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px 4px rgba(222, 147, 211, 0.259) ;
+}
+
+.rules ul, .guesses ul {
+    padding-left: 0;
+}
+
+.rules li, .guesses li {
+    list-style: none;
+    padding: 5px;
+}
+
+button {
+    background-color: white;
+    border: 2px solid rgb(222, 147, 211);
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 20px;
+    margin: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+button:hover {
+    background-color: rgb(222, 147, 211);
+    color: white;
+}
+
+.button-section {
+    display: flex;
+    justify-content: center;
+}
+
+.new-game-section {
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(222, 147, 211);
+    padding: 2px 0px;
+    margin-top: 30px;
+    text-align: center;
+    color: rgb(65, 65, 65);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+footer p {
+    margin: 5px 0;
+    padding: 0;
+}
